@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Nike--Sign In</title>
+    <style>
+        .container{
+            display:flex;
+            justify-content: center;
+            margin-top:50px;
+            font-family: Helvetica,sans-serif;
+        }
+        p{
+            font-size:18px;
+        }
+        a{
+            color:rgba(128, 128, 128, 0.934);
+            cursor:pointer;
+        }
+        input[type="email"]{
+            height:50px;
+            width:450px;
+            border-radius: 7px;
+            border:1px solid rgba(128, 128, 128, 0.934);
+            margin-top:30px;
+            margin-bottom:30px;
+            font-size:18px;
+            padding-left:20px;
+        }
+        input::placeholder{
+            color:rgba(128, 128, 128, 0.838);
+            font-weight:bold;
+            padding-left: 10px;
+            font-size:15px;
+        }
+        button{
+            height:50px;
+            width:130px;
+            background-color: black;
+            color:white;
+            border-radius:50px;
+            font-size:17px;
+            font-weight:bold;
+            margin-left: 300px;
+            margin-top:30px;
+            border:none;
+        }
+        button:hover{
+            background-color:rgb(0,0,0,0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sign">
+        <h1 class="head1">Enter your email to join us or sign <br>in.</h1>
+        <p>India <a href="#">Change</a></p>
+        <form action="product.html">
+            <input type="email" placeholder="Email*" required>
+        <p style="color:rgba(128, 128, 128, 0.934);">By continuing, I agree to Nike's <a href="#">Privacy Policy  <br> and Terms of Use.</a></p>
+        <button>Continue</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
